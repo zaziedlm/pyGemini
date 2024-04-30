@@ -94,13 +94,6 @@ if __name__ == '__main__':
         # Gradio UI:reset session button set.
         session_button = gr.Button("Reset conversation history,session.（Note: Not synchronized with the Clear button)")
 
-        # # Gradio UI:accordion slider set.
-        # with gr.Accordion(label="model options", open=False):
-        #     temperature = gr.Slider(label="Temperature", minimum=0, maximum=1, step=0.1, value=0.4, interactive=True),
-        #     top_p = gr.Slider(label="Top-P", minimum=0.1, maximum=1, step=0.1, value=1, interactive=True),
-        #     top_k = gr.Slider(label="Top-K", minimum=1, maximum=40, step=1, value=32, interactive=True),
-        #     max_output_token = gr.Slider(label="Max Output Token", minimum=1, maximum=2048, step=1, value=1024, interactive=True),
-
         # Reset button Listener.    
         session_button.click(fn=on_reset)
     app.launch()
