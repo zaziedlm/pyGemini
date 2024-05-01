@@ -3,11 +3,11 @@ Google AI Python SDK for the Gemini API
 https://github.com/google-gemini/generative-ai-python  
 
 # Basic chat samples  
-simple-chat 基本的な、Chat API 呼び出し  
-simple-continue_chat マルチターンChat(内部で、Gemini ChatSessionクラス)  
-simple-gradio-ui_chat gradio chatBot によるUI実装  
+1. simple-chat 基本的な、Chat API 呼び出し  
+2. simple-continue_chat マルチターンChat(内部で、Gemini ChatSessionクラス)  
+3. simple-gradio-ui_chat gradio chatBot によるUI実装  
   
-simple-gradio-ui_options　gradio UI, オプション設定スライダー実装  
+4. simple-gradio-ui_options　gradio UI, オプション設定スライダー実装  
 <!--
 ![image](https://github.com/zaziedlm/pyGemini/assets/63864292/230dc602-3d06-4027-88d0-82e9ce5aee1d)
 -->
