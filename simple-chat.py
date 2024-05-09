@@ -1,5 +1,7 @@
 # Gemini API のスタートガイド: Python # Generative API のチュートリアル 
 # https://ai.google.dev/gemini-api/docs/get-started/python?hl=ja
+# 新しい Gemini API クックブック
+# https://github.com/google-gemini/cookbook?tab=readme-ov-file#welcome-to-the-gemini-api-cookbook
 
 import google.generativeai as generativeai
 import os
