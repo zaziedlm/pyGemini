@@ -13,10 +13,15 @@ load_dotenv()
 # Set the API key
 generativeai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
-gemini = generativeai.GenerativeModel('models/gemini-1.5-pro-latest')
+#gemini = generativeai.GenerativeModel('models/gemini-1.5-pro-latest')
+
+#model_name = 'models/gemini-1.5-pro-latest'
+model_name = 'models/gemini-1.5-flash'
+gemini = generativeai.GenerativeModel(model_name)
+
 
 # Set the prompt
-prompt = "こんにちは、あなたは Gemini Proですか？"
+prompt = "こんにちは、あなたのモデル名は、Gemini Proですか？出来るだけ正確なモデル名を教えてください"
 
 # Generate a response
 response = gemini.generate_content(prompt)
